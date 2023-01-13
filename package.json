@@ -1,0 +1,15 @@
+{
+  "name": "ecma-script",
+  "version": "1.0.0",
+  "description": "ecma-trainning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "Ecma-script"
+  ],
+  "author": "Claudio Pantoja <cpantoja022@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+// enahced object literals:
+
+function newUser(user,age,country, uId){
+    return{
+        user, //Los valores no inicializados, los proporcionará el usuario de la función
+        age,
+        country,
+        id:uId //Este elemento está inicializado por lo que la función recibe como parámetro el valor del elemento (Es5)
+    }
+}
+
+console.log(newUser('cpant',26,'Mx',999));
