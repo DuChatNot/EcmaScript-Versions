@@ -12,7 +12,7 @@ let user = {
 };
 
 let {name,age} = user; //Es necesario poner el nombre que recibieron las variables dentro del objeto para poder separarlo
-console.log(user.name,age);
+console.log(name,age);
 
 // Spread Operator:
 
