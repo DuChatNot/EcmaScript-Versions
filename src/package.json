@@ -11,5 +11,7 @@
     "Ecma-script"
   ],
   "author": "Claudio Pantoja <cpantoja022@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
+
 }
