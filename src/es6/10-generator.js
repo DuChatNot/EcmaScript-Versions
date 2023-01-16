@@ -2,7 +2,7 @@
 
 function* i(arr){
     for (val of arr){
-        yield val; // regresa el valor (yield pausa / reanuda una funcion generadora)
+        yield val; // regresa el valor y a la vez recuerda el valor anterior (yield pausa / reanuda una funcion generadora)
     }
 }
 

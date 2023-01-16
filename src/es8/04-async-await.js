@@ -9,7 +9,7 @@ const f = () => {
 }
 
 const fB = async () => { 
-    const a = await f();
+    const a = await f(); //La palabra await espera a que una promesa sea resuelta y solo puede ser utilizada dentro de una funcion async
     console.log(a);
     console.log('Test123'); //Se imprime cuando se resuelve la promesa
 };
