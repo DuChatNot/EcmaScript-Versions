@@ -8,7 +8,7 @@ const o = f();
 o.next().then(response => console.log(response.value));
 o.next().then(response => console.log(response.value));
 o.next().then(response => console.log(response.value));
-console.log('Test123.................');
+console.log('Test123...');
 
 async function fB(array) { //Esta función tarda en ser ejecutada debido al async
     for await (value of array){
